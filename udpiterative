@@ -1,0 +1,10 @@
+#_*_Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+	gcc udp_iterative_server.c -o udp_iterative_server
+
+clean:
+	rm udp_iterative_server
